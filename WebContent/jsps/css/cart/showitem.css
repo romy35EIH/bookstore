@@ -1,0 +1,141 @@
+body{
+	background-color:#588d6a;
+	
+}
+#divmain{
+	width:900px;
+	margin:60px auto;
+	border:2px solid #f0f0f0;
+	background-color:white;
+	padding-bottom:40px;
+}
+table {
+	
+	width: 850px;
+	
+	}
+.trcontent{
+	height:100px;
+}
+#trtitle{
+	border-radius:8px;
+	height:60px;
+	
+}
+#tdiddr{
+	height:50px;
+	border:none;
+	padding-top:15px;
+	padding-bottom:0px;
+}
+.spancreate{
+	color:white;
+	font-size:17px;
+	font-family:"华文中宋";
+	background-color:#4573a0;
+	
+	padding:5px;
+	border-radius:10px;
+	padding-left:8px;
+	padding-right:8px;
+}
+/*清单中各列样式*/
+.trtop{
+	height:50px;
+	text-align:center;
+	background-color:#9a322d;
+}
+.trtop td{
+	text-align:center;
+	font-family:"华文楷体";
+	font-size:18px;
+	color:white;
+	
+}
+/*书名样式*/
+.tdBookName{
+	text-align:center;
+	width:400px;
+	font-family:"华文楷体";
+	font-size:18px;
+}
+/*总计样式*/
+.Subtotal{
+	width:100x;
+	font-family:Gaoel;
+	font-weight:600;
+}
+/*书的价格样式*/
+.tdBookPrice{
+	font-family:Gaoel;
+	font-weight:600;
+}
+#tdtotal{
+	height:40px;
+}
+td {
+	border-color: #ebebeb;
+	border-style: solid;
+	border-width: 0;
+	border-bottom-width: 1px;
+	padding: 10px;}
+#linkSubmit {
+	background: url(/mystore/images/icon2.png) no-repeat;
+	display: inline-block;
+	background-position: 0px -35px;
+	height: 40px;
+	width: 190px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 900;
+	color: #ffffff;
+	font-family: 黑体;
+	line-height: 40px;}
+#linkSubmit:HOVER {
+	background: url(/mystore/images/icon2.png) no-repeat;
+	display: inline-block;
+	background-position: 0px -75px;
+	height: 40px;
+	width: 190px;}
+a {
+	text-decoration: none; 
+	color: #018BD3;}
+a:visited {color: #018BD3;}
+a:hover {
+	color:#FF6600; 
+	text-decoration: underline;}
+.price_n {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;}
+.price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 15pt;}
+a.linkImage {
+	display: inline-block;
+	border: 1px solid #ffffff;}
+a.linkImage:HOVER {
+	display: inline-block;
+	border: 1px solid #d0d0d0;}
+a.link2:active {
+	border: 1px dotted #404040;}
+#addr{
+	height: 46px;
+  font-size: 20px;
+  font-family: "华文楷体";
+  line-height: 20px;
+  text-indent:10px;
+  border: 2px solid #93a3ae;
+  box-sizing:border-box;
+  border-radius: 12px;
+  color: #888;
+  width: 500px;
+}
+#addr:focus{
+	outline:none;
+}

@@ -1,0 +1,198 @@
+body{
+	background-color:#588d6a;
+}
+table {
+	
+	width: 700px;
+	
+}
+#note{
+	width:900px;
+	margin:60px auto;
+	border:2px solid #f0f0f0;
+	background-color:white;
+	padding-bottom:40px;
+}
+.spantop{
+	padding:8px;
+	border-bottom:1px solid #ebebeb;
+	font-size:16px;
+	box-shadow:0px 1px 5px rgba(0,0,0,0.5);
+}
+.tt {
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	height：100px;
+	padding-top:15px;
+	padding-bottom:15px;
+	background-color:#9a322d;
+	
+	color:white;
+}
+
+.td {
+	border-bottom: 1px solid #f0f0f0;
+	font-family:Gaoel;
+	font-weight:600;
+	font-size:16px;
+
+}
+/*商品信息条目列样式——主要是设置高度*/
+.trcontent{
+	height:100px;
+}
+body {
+	font-size: 10pt;
+	color: #404040;
+}
+
+
+
+.divOrder {
+	margin-top:20px;
+	width: 95%;
+	font-weight: 900;
+	font-size: 15px;
+	padding: 20px;
+	margin-left: 30px;
+	
+	font-size:16px;
+}
+
+.divContent {
+	width: 750px;
+	margin-left:50px;
+	border: 2px solid #f0f0f0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top:20px;
+}
+
+.div2 {
+	border-bottom: 1px solid #f0f0f0;
+}
+
+dt {
+	font-weight: 900;
+	font-size: 15px;
+	margin: 5px;
+}
+
+/*title样式*/
+.trtitle{
+	
+	background-color:#9a322d;
+	text-align:center;
+}
+.title {
+	border: 1px solid #d0d0d0;
+	background: url(/mystore/images/bg_btns.png) repeat-x;
+	background-position: 0 -132px;
+	margin-left: 2px;
+	height: 30px;
+	width: 99.8%;
+}
+
+td .bookname {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	width: 350px;
+	font-family:"华文楷体";
+	font-size:18px;
+}
+.bookname a:hover{
+	color:#85b892;
+}
+.pay{
+	padding:8px;
+	background-color:#85b892;
+	border-radius:3px;
+	color:white;
+	font-family:YouYuan;
+	font-weight:bold;
+	font-size:17px;
+	margin-top:15px;
+	display: inline-block;
+	margin-left:50px;
+	text-decoration: none;
+}
+.pay:hover{
+	text-decoration: none;
+	background-color:#588d6a;
+}
+
+.price_t {
+	font-size: 18px;
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Gaoel;
+	
+}
+
+
+#spanlist{
+	background-color:#4573a0;
+	color:white;
+	padding:5px;
+	border-radius:10px;
+	padding-left:8px;
+	padding-right:8px;
+	
+}
+#spaninfo{
+	font-size:20px;
+	font-family:"华文楷体";
+}
+.tab a{
+	text-decoration: underline;
+	color:black;
+}
+.tab a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+.tab a:visited {
+	color: #FF6600;
+	text-decoration: underline;
+}
+#confirm {
+	
+	display: inline-block;
+	padding:8px;
+	background-color:#bf473e;
+	border-radius:3px;
+	color:white;
+	font-family:YouYuan;
+	font-weight:bold;
+	font-size:17px;
+	margin-top:15px;
+	display: inline-block;
+	margin-left:50px;
+	text-decoration: none;
+}
+a{
+	color:black;
+}
+#cancel {
+	display: inline-block;
+	padding:8px;
+	background-color:#bf473e;
+	border-radius:3px;
+	color:white;
+	font-family:YouYuan;
+	font-weight:bold;
+	font-size:17px;
+	margin-top:15px;
+	display: inline-block;
+	margin-left:50px;
+	text-decoration: none;
+}
+#cancel:hover{
+	text-decoration: none;
+	background-color:#9a322d;
+}

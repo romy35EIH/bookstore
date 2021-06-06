@@ -1,0 +1,231 @@
+table {
+	
+	border-color: #588d6a;
+	border-style: solid;
+	border-width: 5px;
+	border-radius:10px;
+	color: #edcc86;}
+td {
+	border-color: #7fa362;
+	border-style: solid;
+	border-width: 0;
+	border-bottom-width: 1px;
+	padding: 10px;}
+
+	
+tr{
+	height:160px;
+	
+}
+	/*表头样式*/
+	/*设置表头的背景颜色和文字位置*/
+#trTop{
+	background-color:#588d6a;
+	text-align:center;
+	border-radius:10px;
+	height:80px;
+}
+/*设置表头各列字体*/
+.tdTop{
+
+	color:white;
+	font-size:17px;
+	font-family:"华文中宋";
+	
+}
+/*表头中全选键单拎出来*/
+.mycheck{
+	float:left;
+	
+}
+.quanxuan{
+	
+	color:white;
+	font-size:15px;
+	font-family:"华文中宋";
+	
+}
+/*购物车条目样式*/
+#itemlist{
+	font-size:17px;
+	color:black;
+}
+/*图片样式*/
+#imglink{
+	height:80px;
+	
+}
+/*书名样式*/
+#tdBookName{
+	text-align:center;
+	width:400px;
+	font-family:"华文中宋";
+}
+/*总计样式*/
+.Subtotal{
+	width:100x;
+	font-family:Gaoel;
+	font-weight:600;
+}
+/*书的价格样式*/
+#tdBookPrice{
+	font-family:Gaoel;
+	font-weight:600;
+}
+/*数量部分块元素*/
+
+
+.jian:HOVER {background: url(/mystore/images/icon.png) no-repeat;display: inline-block;background-position: -166px -125px;height: 11px;width: 11px;margin: 0;}
+.jian {background: url(/mystore/images/icon.png) no-repeat;display: inline-block;background-position: -166px -145px;height: 11px;width: 11px;margin: 0;}
+.jia:HOVER {background: url(/mystore/images/icon.png) no-repeat;display: inline-block;background-position: -178px -125px;height: 11px;width: 11px;margin: 0;}
+.jia {background: url(/mystore/images/icon.png) no-repeat;display: inline-block;background-position: -178px -145px;height: 11px;width: 11px;margin: 0;}
+
+/*最后一行*/
+.trlast{
+	height:90px;
+}
+.jiesuan {
+	background: url(/mystore/images/icon.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -35px;
+	height: 40px;
+	width: 190px;
+	margin: 0;
+	}
+.kill {
+	background: url(/mystore/images/icon.png) no-repeat;
+	display: inline-block;
+ackground-position: 0 -480px;
+height: 40px;
+width: 190px;}
+.jiesuan:HOVER {
+	background: url(/mystore/images/icon.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -75px;
+	height: 40px;width: 190px;
+	poorfish: expression(this.onclick = function jiesuan(){return true});}
+/*数量框样式*/
+.quantity {
+	width: 25px;
+	text-align: center;
+	margin: 0;}
+.quantity:hover{
+	outline:none;
+}
+a {text-decoration: none; color: #487a6f;}
+a:visited {color: #487a6f;}
+a:hover {
+	color:#475272; 
+	text-decoration: underline;
+	}
+a.linkImage {border: 1px solid #ffffff;display: inline-block;}
+a.linkImage:HOVER {border: 1px solid #d0d0d0;display: inline-block;}
+a.linkImage:active {border: 1px dotted #404040;display: inline-block;}
+.price_n {color: #c30;font-weight: bold;padding-right: 10px;font-family: Arial;}
+.price_t {color: #c30;font-weight: bold;padding-right: 10px;font-family: Arial;font-size: 15pt;}
+.spanEmpty{margin-top: 50px; font-size: 24px; font-weight: 900;}
+
+/*批量删除的键*/
+.tdBatchDelete{
+	border-top-width: 5px;
+	border-bottom-width:0px;
+	font-family:"华文楷体";
+	font-size:20px;
+	}
+.tdBatchDelete a{
+	padding:8px;
+	background-color:#85b892;
+	border-radius:3px;
+	color:white;
+	font-family:YouYuan;
+	font-weight:bold;
+	font-size:17px;
+	}
+	.tdBatchDelete a:hover{
+	text-decoration: none;
+	background-color:#588d6a;
+	}
+	/*最下端总计的列*/
+.tdTotal{
+	border-top-width: 5px;
+	color:black;
+	font-family:"华文楷体";
+	font-size:20px;
+	font-weight:500;
+	}
+	
+/*删除键*/
+#deletefun{
+	
+	padding:8px;
+	background-color:#bf473e;
+	border-radius:3px;
+	color:white;
+	font-family:YouYuan;
+	font-weight:bold;
+	font-size:14px;
+}
+#deletefun:hover{
+	
+	text-decoration: none;
+	background-color:#9a322d;
+}
+
+
+
+/*#588d6a*/
+ input[type=checkbox]{
+	visibility:hidden;
+}
+.checkbox00{
+	float:left;
+	width:20px;
+	height:20px;
+	background:#fff;
+	margin-left:10px;
+	border-radius:100%;
+	position:relative;
+	
+	-webkit-box-shadow:0px 3px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow:0px 3px 5px rgba(0,0,0,0.5);
+	box-shadow:0px 3px 5px rgba(0,0,0,0.5);
+}
+.checkbox01{
+	float:left;
+	width:20px;
+	height:20px;
+	background:#fff;
+	margin-left:10px;
+	border-radius:100%;
+	position:relative;
+	border:1px solid #fff;
+	-webkit-box-shadow:0px 1px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow:0px 1px 5px rgba(0,0,0,0.5);
+	box-shadow:0px 1px 5px rgba(0,0,0,0.5);
+}
+label{
+	display:block;
+	width:12px;
+	height:12px;
+	border-radius:100%;
+	
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	transition:all .5s ease;
+	cursor:pointer;
+	position:absolute;
+	top:4px;
+	left:4px;
+	z-index:1;
+	background-color:#fff;
+	
+}
+
+.checkbox01 input[type=checkbox]:checked + .formycheck01{
+	background-color:#588d6a;
+}
+.checkbox00 input[type=checkbox]:checked + .formycheck00{
+	background-color:#85b892;
+}

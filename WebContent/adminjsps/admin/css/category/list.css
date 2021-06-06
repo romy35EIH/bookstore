@@ -1,0 +1,57 @@
+body {
+	background-color: white;
+}
+
+table {
+
+	font-size: 11pt;
+	width: 60%;
+	font-family: Cursive;
+  border-collapse: collapse;
+  text-align: center;
+}
+table td,table th{
+	font-size: 1.2em;
+  border: 2px solid #d7e0ee;
+
+  padding: 3px 7px 2px 7px;
+  line-height: 30px;
+}
+table th{	
+  font-size: 1.4em;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  background-color: lightsteelblue;
+  color: black;
+}
+
+
+.trTitle {
+	background: rgb(78, 78, 78);
+	color: #fff;
+}
+
+.trOneLevel {
+	background-color: aliceblue;
+	font-weight: 900;
+}
+
+.captionAddOneLevel {
+	line-height: 30px;
+}
+
+.trTwoLevel {
+	text-align: center;
+	font-size: 10pt;
+}
+h2{
+	color: #333;
+	font-family: Lato, sans-serif;
+	text-align:left;
+	font-weight: 300;
+    letter-spacing: 0.2em;
+    margin-left:20%;
+    margin-top:30px;
+    margin-bottom:10px;
+    
+}

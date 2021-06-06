@@ -1,0 +1,171 @@
+body {
+	background-color: #988875;
+	background:url(/mystore/images/background00.jpg) #fef2f2;
+	background-size:100%;
+	}
+
+.main
+{
+	margin:5% 30%;}
+
+table{
+	padding-left:50px;
+}
+.login1{
+	width: 600px; 
+	height: 540px; 
+	border: 1px solid #d1d1cf; 
+	float: left; 
+	background-color: WHITE;}
+.login2{
+	width:598px; 
+	height:500px; 
+	margin: 2px; 
+	}
+
+.loginTopDiv {
+	width:568px;
+	margin-left:15px;
+	margin-bottom:20px;
+	height:65px;
+	border-bottom:2px solid black;
+	line-height:65px;
+	}
+.loginTop 
+{margin-left:20px;
+	color: #333;
+  	font-weight: 700;
+  	font-size: 27px;
+  	font-family:"Times New Roman";
+}
+.registBtn {
+	background: url(/goods/images/login_sprites_20110808.png);
+	display: inline-block;
+	background-position: 0px -46px;
+	height: 24px;
+	width: 73px;	
+	margin-left: 250px;
+}
+.registBtn:HOVER {
+	background: url(/goods/images/login_sprites_20110808.png);
+	display: inline-block;
+	background-position: -73px -46px;
+	height: 24px;
+	width: 73px;
+	margin-left: 250px;
+}
+.tdText{
+	font-family: "华文楷体";
+	font-size:21px;
+	font-weight:bold;
+	color:#524943;
+	width:100px;
+	text-align:center;
+}
+
+table {margin-left: 30px;font-size: 10pt;color: #404040;}
+.input 
+{
+height: 26px;
+margin-left: 10px;
+margin-top:10px;
+  font-size: 20px;
+  font-family: "华文楷体";
+  line-height: 20px;
+  padding: 10px;
+  border: 2px solid #c0c0c0;
+  background: #fff;
+  border-radius: 12px;
+  color: #888;
+  width: 220px;
+  text-indent:10px;
+}
+.input:hover{
+	border: 2px solid #D9C0BC;
+	border-radius: 12px;
+  	box-shadow: 0px 1px 8px 0px #D9C0BC;
+
+}
+input#verifyCode
+{
+height: 26px;
+margin-left: 10px;
+margin-top:10px;
+  font-size: 18px;
+  font-family: "华文楷体";
+  line-height: 18px;
+  padding: 10px;
+  border: 2px solid #c0c0c0;
+  background: #fff;
+  border-radius: 12px;
+  color: #888;
+  width: 220px;;
+  text-indent:10px;
+}
+input#verifyCode:hover{
+	border: 2px solid #D9C0BC;
+	border-radius: 12px;
+  	box-shadow: 0px 1px 8px 0px #D9C0BC;
+
+}
+.input:focus{
+	outline: none;
+}
+.yzm 
+{width: 90px;
+height: 26px;
+border: 1px solid #d9d9d9;
+vertical-align: middle; 
+margin-left:30px;
+
+padding-top: 4px;
+padding-left: 30px;
+}
+a#verifyCode{
+	font-size:18px;
+	font-weight: 550;
+	margin-left:20px;
+	color:#387195;
+}
+label.error {
+	color:#cc3300;
+	font-weight: 900;
+	margin-left:20px;
+	color:#b3757d;
+	
+	}
+#vCode 
+{
+	
+	margin-left: 20px; 
+	vertical-align: middle;
+	width: 175px;
+	height: 65px;
+	border: 1px solid #d0d0d0;}
+.loginBtn 
+{
+	margin-top:20px;
+	margin-left:60px;
+	 border:0px;
+	width: 92px; 
+	height: 40px;
+	padding:5px;
+	color:white;
+	background-color:#B3757D;
+	font-family:sans-serif;
+	font-weight:550;
+	border-radius: 6px;
+	font-size:18px;
+	}
+.loginBtn:hover
+{
+	background: linear-gradient(-45deg, rgba(224, 178, 185, 1) 0%, rgba(201, 122, 135, 1) 100%);  
+  box-shadow: 0 5px 20px rgba(223, 210, 216, .5);
+
+	}
+
+
+
+
+
+

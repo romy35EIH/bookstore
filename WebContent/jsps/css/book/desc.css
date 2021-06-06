@@ -1,0 +1,55 @@
+a {
+	text-decoration: none; 
+	color: #018BD3;}
+a:visited {
+	color: #018BD3;
+	}
+a:hover {
+	color:#FF6600; 
+	text-decoration: underline;}
+body {
+	margin-top:10px;
+	margin-left:20px;
+	font-size: 14pt;
+	color: #404040;
+	font-family: KaiTi;}
+table {font-size: 12pt;margin-top: 15px;margin-left: 50px;width: 500px;}
+td{height: 35px;}
+.divBookName {
+	font-size: 16pt; 
+	font-weight: 900; 
+	margin-bottom: 30px;
+	font-family:STXinwei;
+	}
+.img_image_w {border: 1px solid #dcdcdc; float: left;}
+.divBookDesc{float:left;}
+.spanPrice {text-decoration:line-through;}
+.hr1{margin-left: 50px;
+height:1px;
+border:none;
+background-color:#daa001;}
+.price_n {color: #c30; font-weight: bold; padding-right: 10px; font-family: Arial; font-size: 20pt; }
+ul {list-style: none;}
+li {margin: 10px;
+height:33px;
+}
+#btn {background: url(/mystore/images/all.png) no-repeat;display: inline-block;background-position: 0 -70px;height: 36px;width: 146px;}
+#btn:HOVER {background: url(/mystore/images/all.png) no-repeat;display: inline-block;background-position: 0 -106px;height: 36px;width: 146px;}
+.divForm {
+	border: 1px solid #dcdcdc;
+	background-color: #fefdfe;
+	margin: 15 0 0 50; 
+	padding:20px;}
+#cnt{
+	padding-top:6px;
+	padding-bottom:6px;
+	font-family:19px;
+	width: 40px;
+
+	text-align: center;
+	border:1px solid #f0f0f0;
+	border-radius:7px;
+}
+#cnt:focus{
+	outline:none;
+}

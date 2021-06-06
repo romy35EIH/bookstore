@@ -1,0 +1,106 @@
+
+#menu{
+	height:100%;
+	
+}
+.menuBar {
+
+font-size:25px;
+color:#ffffff;
+font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+width:265px;
+	border-radius:6px 6px 0px 0px;
+	border-right:3px solid #487a6f;
+border-left:3px solid #487a6f;
+
+}
+/*menuBgColor*/
+.barTitle {
+height:60px;
+font-size:20px;
+background-color:#487a6f; 
+font-weight:bold;
+width:100%;
+border-radius:6px 6px 0px 0px;
+border-bottom:2px dashed #f0f0f0;
+}
+
+.barTitleText {
+	float:left;
+	width:100%;
+	margin-top:15px;
+	text-align:center;
+	font-size:23px;
+	font-family:"华文中宋";
+}
+
+.menuTitleText {
+margin-left:10px;
+margin-top:5px;
+float:left;
+font-size:20px;
+font-family:"华文楷体";
+}
+img{
+	margin-top:5px;
+}
+
+.menuTitle {
+background-color:#white;
+color:#487a6f;
+font-weight:600;
+width:260px;
+height:42px;
+margin-top:1px;
+
+border-bottom:1px solid #f0f0f0;
+
+cursor:pointer;
+}
+.menuTitleIcon {
+	margin-top:3px;
+	float:left;
+}
+/*子菜单的div样式*/
+.menuContent {
+/*	height:150px;*/
+width:260px;
+	color:#FFFFFF;
+	display:none;
+	overflow:auto;
+	text-align:center;
+}
+.barBottom {
+background-color:white;
+width:168px;
+height:15px;
+}
+a {
+	color:#000000;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+a:link {
+	TEXT-DECORATION: none
+}
+a:visited {
+	TEXT-DECORATION: none
+}
+a:hover {
+	TEXT-DECORATION: none;
+	font
+}
+a:active {
+	TEXT-DECORATION: none;/*underline*/
+}
+
+.menuItem {
+	height:30px;
+	padding-top:12px;
+	border-bottom: 1px solid #487a6f;
+	background-color: #f7f1df;
+	cursor:pointer;
+	font-family:"华文楷体";
+	font-weight:600;
+	font-size:17px;
+	color:black; 
+}

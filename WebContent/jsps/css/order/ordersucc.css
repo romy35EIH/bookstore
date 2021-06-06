@@ -1,0 +1,106 @@
+body {
+	font-size: 10pt;
+	color: #404040;
+	font-family: SimSun;
+}
+#speak{
+	margin-top:50px;
+	font-family:"华文中宋";
+	font-size:21px;
+	margin-left:120px;
+}
+#linkPay {
+	
+	display: inline-block;
+	
+	font-weight: 900;
+	font-family: 黑体;
+	
+	padding:8px;
+	background-color:#85b892;
+	border-radius:3px;
+	color:white;
+	font-family:YouYuan;
+	font-weight:bold;
+	font-size:17px;
+	margin-top:15px;
+	display: inline-block;
+	margin-left:5px;
+	text-decoration: none;
+}
+
+#linkPay:HOVER {
+	
+	display: inline-block;
+	
+	text-decoration: none;
+	background-color:#588d6a;
+	
+}
+
+.price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 15pt;
+}
+
+.div1 {
+	margin-left: 150px;
+	width: 690px;
+	height: 70px;
+	background-color: #747e49;
+	border-left: 10px solid #747e49;
+	border-right: 10px solid #747e49;
+	border-radius:20px 20px 0 0;
+}
+
+.div2 {
+	margin-left: 150px;
+	width: 690px;
+	height: 400px;
+	border: 5px solid #747e49;
+}
+
+.div3 {
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.span1 {
+	margin-top: 20px;
+	margin-left: 10px;
+	height: 30px;
+	font-weight: 900;
+	display: inline-block;
+	font-family:"华文中宋";
+	font-size:20px;
+}
+
+.img {
+	float: left;
+	margin: 30px 100px 0px 30px;
+	width: 150px;
+}
+
+dl {
+	float: left;
+	width: 400px;
+	margin-top: 30px;
+}
+
+dt {
+	font-weight: 900;
+	font-size:20px;
+	font-family:"华文楷体";
+	padding:10px;
+	border-bottom:1px solid #f0f0f0;
+}
+dd{
+	font-size:18px;
+	font-family:"华文楷体";
+	padding:10px;
+}

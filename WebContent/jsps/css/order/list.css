@@ -1,0 +1,107 @@
+
+table {
+	
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 5px;
+	
+	color: #edcc86;}
+
+td {
+	padding-left: 5px;
+}
+
+.divTitle span{
+	
+	font-family:"华文中宋";
+	font-size:19px;
+}
+
+.divMain {
+	width: 900px;
+	margin-left: 30px;
+	
+}
+
+.divTitle {
+	padding-top:27px;
+	margin-left: 2px;
+	width: 99.8%;
+	line-height: 30px;
+	background-color:#9a322d;
+	text-align:center;
+	border-radius:10px;
+	height:60px;
+	
+	color:white;
+	
+}
+/*总计字体样式*/
+.price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Gaoel;
+	font-size: 13pt;
+}
+
+.tt {
+	background-color:#e6c5b4;
+	text-align:center;
+	border-radius:10px;
+	font-size:17px;
+	
+	height: 70px;
+	font-family: "华文楷体";
+	color: #080810;
+}
+/*每行具体内容的高度*/
+.trcontent{
+	height:100px;
+}
+/*状态样式*/
+.tdstatus{
+	color:#747e49;
+	font-size:18px;
+	width:162px;
+}
+/*操作样式*/
+.tdoperation a{
+	font-size:18px;
+	font-family:"华文楷体";
+	font-weight:600;
+}
+.tdoperation a:hover{
+	color: #edcc86;
+}
+a {
+	text-decoration: none;
+	color: #018BD3;
+}
+/*总计样式*/
+.tdtotal{
+	
+}
+a:visited {
+	color: #018BD3;
+}
+
+a:hover {
+	color: #080810;
+	text-decoration: underline;
+}
+
+a.link2 {
+	border: 1px solid #ffffff;
+	display: inline-block;
+}
+
+a.link2:HOVER {
+	border: 1px solid #d0d0d0;
+	display: inline-block;
+}
+
+a.link2:active {
+	border: 1px dotted #404040;
+	display: inline-block;
+}
